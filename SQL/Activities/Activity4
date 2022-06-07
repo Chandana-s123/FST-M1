@@ -1,0 +1,10 @@
+--Activity4
+
+--Add a new column - grade - to the salesman table. The grade will be integer values.
+alter table salesman ADD (GRADE int);
+
+--Set the value in the grade column for everyone to 100.
+update salesman set GRADE = 100;
+
+--SELECT command to display the results.
+select * from salesman;

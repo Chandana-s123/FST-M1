@@ -1,0 +1,7 @@
+-- Activity1
+
+-- Create Table salesman
+create table salesman(SALESMAN_ID int primary key,SALESMAN_NAME varchar2(32),SALESMAN_CITY varchar2(20),COMMISSION int);
+
+-- View table salesman
+describe salesman;

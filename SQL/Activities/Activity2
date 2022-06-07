@@ -1,0 +1,12 @@
+--Activity2
+
+-- Insert values to salesman table
+insert all
+        into salesman(SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMMISSION) values (5001,'James Hoog','New York','15')
+        into salesman(SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMMISSION) values (5002,'Nail Knite','Paris','13')
+        into salesman(SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMMISSION) values (5005,'Pit Alex','London','11')
+        into salesman(SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMMISSION) values (5006,'Mc Lyon','Paris','14')
+        into salesman(SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMMISSION) values (5007,'Paul Adam','Rome','13')
+        into salesman(SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMMISSION) values (5003,'Lauson Hen','SanJose','12')
+SELECT 1 FROM DUAL;
+
